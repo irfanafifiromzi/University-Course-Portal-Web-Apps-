@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+body{
+	margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;   
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    width: 60%;
+    min-height:400px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+select,.form-group,.form-control,.btnRegister,.backb{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:18pt;
+}
+
+h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:11pt;
+}
+
+.scholarship{ 
+background-color: lightgrey; 
+width: 340px; 
+height: 260px; 
+padding: 40px;
+border-radius: .25rem; 
+margin: 18px;
+box-shadow: 0 1px 3px 0 rgba(0,0,0,.5), 0 1px 2px 0 rgba(0,0,0,.06);
+
+} 
+
+.btn,.backb{
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+	text-decoration: none;
+	background: #F39C12;
+	color: #fff;
+	padding: 4px 20px;
+	margin: 10px 0;
+	border-radius: 30px;
+	border: none;
+	transition: background 0.5s;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:11pt;
+
+}
+
+.btn:hover,.backb:hover{
+	background: #DC7633;
+}
+

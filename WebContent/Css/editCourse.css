@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+
+body{
+	margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;   
+}
+
+.main-body {
+    padding: 15px;
+}
+
+
+.card{
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+.card{
+
+    flex-direction: column;
+    min-width: 0;
+    width: 60%;
+    min-height : 600px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.courseform input[type="text"],
+.textarea{
+	
+	font-family: 'Ubuntu', sans-serif;
+	font-size:13pt;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 70%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #F4F5F7;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+.textarea{
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.4), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+#ye{
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.4), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+label{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:12pt;
+}
+
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:18pt;
+}
+
+
+.btn{
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.4), 0 1px 2px 0 rgba(0,0,0,.06);
+	display: incline-block;
+	background: #F39C12;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 5px 0;
+	border-radius: 30px;
+	border: none;
+	transition: background 0.5s;
+}
+
+.btn:hover{
+	background: #DC7633;
+}
+
+.backb{
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.4), 0 1px 2px 0 rgba(0,0,0,.06);
+	display: incline-block;
+	background: #F39C12;
+	color: #fff;
+	padding: 8px 20px;
+	margin: 10px 0;
+	border-radius: 30px;
+	border: none;
+	transition: background 0.5s;
+}
+
+.backb:hover{
+	background: #DC7633;
+}
+
